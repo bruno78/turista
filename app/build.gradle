@@ -48,6 +48,7 @@ dependencies {
     implementation ('com.google.http-client:google-http-client-gson:1.23.0') {
         exclude module: 'httpclient'
     }
+    implementation 'com.google.code.findbugs:jsr305:2.0.1'
 
     // Apache Commons IO library
     implementation 'commons-io:commons-io:2.5'

@@ -17,4 +17,27 @@
         android:gravity="center"
         android:text="Selected Image"/>
 
+    <ImageView
+        android:id="@+id/iv_selected_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_selected_image_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    
+    <TextView
+        android:id="@+id/tv_info_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_selected_image"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/select_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Choose an Image"/>
+
 </RelativeLayout>
